@@ -1,0 +1,16 @@
+{
+  "name": "pinkngreen-chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered bilingual chatbot for Pink'n Green cosmetics store",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
